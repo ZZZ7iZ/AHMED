@@ -21,7 +21,7 @@ OWNER_ID = list(
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ma7amad2000/AHMED")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ZZZ7iZ/AHMED")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/2577f47589c4b4c63e4a6.jpg"
+            START_IMG_URL = "https://graph.org/file/1434ae1fab5ddec04b4d6.jpg"
