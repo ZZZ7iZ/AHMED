@@ -15,13 +15,13 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["مطورين spark","المطورين","مطورين","مطورين سبارك"])
+    command(["مبرمج السورس","المطور","مطورين","مطور السورس"])
     & ~filters.edited
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/2577f47589c4b4c63e4a6.jpg",
-        caption=f"""**⩹━★⊷━⌞ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين سبارك ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━⌞ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺**""",
+        caption=f"""**⩹━★⊷━⌞ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين سبارك ميوزك\nللتحدث مع مطورين اضغط على الازرار بالاسفل👇\n**⩹━★⊷━⌞ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
